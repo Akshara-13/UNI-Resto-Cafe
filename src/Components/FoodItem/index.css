@@ -1,0 +1,110 @@
+.food-item-list {
+  height: auto;
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2vh;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 2vh;
+  padding-left: 1vw;
+  box-shadow: 0 -1px 1px #dbe4e6fe, 0 1px #dbe4e6fe;
+  border-width: 1px;
+  border-style: solid;
+  padding-bottom: 1vh;
+}
+.food-item-details {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 1vh;
+}
+.food-item-details-paragraph {
+  font-size: 110%;
+  color: rgb(185, 185, 185);
+}
+.food-item-heading {
+  font-size: 100%;
+  margin-top: 0px;
+}
+.food-item-image {
+  height: 40%;
+  width: 10vw;
+  border-radius: 5px;
+  border-color: black;
+  background-size: cover;
+  margin: 2%;
+}
+.buttons-container {
+  height: 5vh;
+  width: 9vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(26, 155, 71);
+  border-radius: 15px;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+.btn {
+  height: 20px;
+  padding-top: 0px;
+  font-size: 20px;
+  text-align: center;
+  background-color: transparent;
+  border-width: 0px;
+  color: rgb(209, 199, 199);
+}
+@media screen and (min-width: 992px) and (max-width: 1119px) {
+  .food-item-heading {
+    font-size: 130%;
+  }
+  .food-item-details-paragraph {
+    font-size: 120%;
+  }
+  .buttons-container {
+    width: 15vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .food-item-details {
+    height: 80%;
+  }
+  .buttons-container {
+    height: 15%;
+    width: 15vw;
+  }
+  .food-item-heading {
+    font-size: 140%;
+  }
+  .food-item-details-paragraph {
+    font-size: 90%;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .list {
+  }
+  .buttons-container {
+    width: 20vw;
+  }
+}
+@media screen and (max-width: 575px) {
+  .food-item-list {
+    height: 35%;
+  }
+  .food-item-heading {
+    font-size: 70%;
+  }
+  .food-item-details-paragraph {
+    font-size: 70%;
+  }
+  .buttons-container {
+    width: 20vw;
+  }
+  .food-item-image {
+    width: 20vw;
+  }
+}
