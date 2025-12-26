@@ -73,7 +73,7 @@ class App extends Component {
       >
         <BrowserRouter>
           <Switch>
-            <Route to="/" component={Home} />
+            <Route path="/" component={Home} />
           </Switch>
         </BrowserRouter>
       </Context.Provider>
